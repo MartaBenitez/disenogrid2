@@ -1,0 +1,37 @@
+.contenedor_grid{
+	display: grid;
+	grid-template-columns: 4% 32% 32% 32%;
+	background-color: red;
+}
+#uno{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: blue;
+}
+#dos{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-color: purple;
+}
+#tres{
+	background-color: yellow;
+}
+#cuatro, #cinco, #siete{
+	background-color: white;
+}
+#seis{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	background-color: grey;
+}
+#ocho{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	background-color: cyan;
+}
